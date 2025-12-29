@@ -1,5 +1,8 @@
 from typing import List
 
+# Leetcode Problem 1: Two Sum
+# Link: https://leetcode.com/problems/two-sum
+
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         # Hash map to store the numbers we have seen so far, O(1) lookup time
